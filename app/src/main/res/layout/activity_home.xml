@@ -55,6 +55,8 @@
         android:background="@color/card_background"
         android:theme="@style/BottomNavigationView"
         app:itemIconSize="20dp"
+        app:itemIconTint="@drawable/bottom_nav_selector"
+        app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottom_menu" />
 
