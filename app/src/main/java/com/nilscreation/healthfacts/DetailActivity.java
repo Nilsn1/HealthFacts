@@ -46,7 +46,6 @@ public class DetailActivity extends AppCompatActivity {
     MyDBHelper myDBHelper;
     SwitchCompat switchMode;
     Boolean fav = false;
-
     private AdView mAdView;
 
     @Override
