@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#03A9F4</color>
+    <color name="secondary">#FFFFFF</color>
+    <color name="Main_background">#000000</color>
+    <color name="Main_background2">#000000</color>
+    <color name="card_background">#0E1013</color>
+    <color name="btn_background">#252831</color>
+    <color name="ic_color">#9B9DAC</color>
+    <color name="text_color">#9B9DAC</color>
+    <color name="primary_text">#ADAFC0</color>
+    <color name="ic_actionbar">#D6D6D6</color>
+    <color name="red">#F50000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
