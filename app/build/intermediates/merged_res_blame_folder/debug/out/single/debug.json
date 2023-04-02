@@ -1,0 +1,318 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable-hdpi_img_random.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable-hdpi\\img_random.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_back.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\back.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\font_nunito_bold.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\font\\nunito_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-xhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_roundbutton.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\roundbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-xhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_like.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_like.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_favourite.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_favourite.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_fragment_category_search.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\fragment_category_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_contact.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_contact.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\xml_paths.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\xml\\paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-hdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_play.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable-hdpi_img_animals.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable-hdpi\\img_animals.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_item.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_download.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_download.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable-hdpi_img_psychology.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable-hdpi\\img_psychology.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable-hdpi_img_world.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable-hdpi\\img_world.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-mdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_roundback.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\roundback.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_app_logo.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\app_logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable-hdpi_img_nature.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable-hdpi\\img_nature.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_more.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_more.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_bottom_nav_selector.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\bottom_nav_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-xxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_categories.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_categories.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_line.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\line.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-mdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable-hdpi_img_health.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable-hdpi\\img_health.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_exit_dialog.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\exit_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_privacy.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_privacy.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_share.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_share.png"
+    },
+    {
+        "merged": "com.nilscreation.healthfacts.app-merged_res-40:/layout_activity_home.xml.flat",
+        "source": "com.nilscreation.healthfacts.app-main-42:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable-hdpi_img_tech.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable-hdpi\\img_tech.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_internet_dialog.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\internet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_fragment_category.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\fragment_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_copy.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_copy.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable-hdpi_img_history.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable-hdpi\\img_history.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\menu\\bottom_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_fragment_favourite.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\fragment_favourite.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable-hdpi_img_mystery.jpg.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable-hdpi\\img_mystery.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\font_nunito_semibold.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\font\\nunito_semibold.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_languages.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_languages.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_settings.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-hdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-debug-41:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-xxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_star.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_star.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_logo_small.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\logo_small.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_share2.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_share2.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_round_card.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\round_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_exit.png.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\exit.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_no_internet.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\ic_no_internet.xml"
+    }
+]
