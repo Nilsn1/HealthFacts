@@ -85,40 +85,6 @@
                     android:background="@drawable/round_card"
                     android:orientation="vertical">
 
-                    <LinearLayout
-                        android:id="@+id/btnSpeech"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:clickable="true"
-                        android:foreground="?attr/selectableItemBackground"
-                        android:orientation="horizontal"
-                        android:padding="15dp">
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_gravity="center"
-                            android:layout_marginStart="10dp"
-                            android:src="@drawable/ic_languages"
-                            app:tint="@color/ic_color" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="25dp"
-                            android:fontFamily="@font/nunito_bold"
-                            android:text="Speech Setting"
-                            android:textColor="@color/ic_color"
-                            android:textSize="17sp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:layout_marginHorizontal="15dp"
-                        android:src="@drawable/line" />
 
                     <LinearLayout
                         android:id="@+id/btnShare"
