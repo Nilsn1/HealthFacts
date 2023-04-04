@@ -56,14 +56,36 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
                 android:gravity="center"
                 android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/likebutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="50dp"
+                    app:cardElevation="0dp">
+
+                    <ImageView
+                        android:id="@+id/imgfav"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:src="@drawable/like_dislike_selector"
+                        app:tint="@color/ic_color" />
+
+                </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/copybutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="25dp"
+                    android:layout_weight="1"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground"
                     app:cardCornerRadius="50dp"
@@ -72,6 +94,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
+                        android:layout_gravity="center"
                         android:padding="10dp"
                         android:src="@drawable/ic_copy"
                         app:tint="@color/ic_color" />
@@ -82,7 +105,7 @@
                     android:id="@+id/savebutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="25dp"
+                    android:layout_weight="1"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground"
                     app:cardCornerRadius="50dp"
@@ -91,6 +114,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
+                        android:layout_gravity="center"
                         android:padding="10dp"
                         android:src="@drawable/ic_download"
                         app:tint="@color/ic_color" />
@@ -101,7 +125,7 @@
                     android:id="@+id/sharebutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="25dp"
+                    android:layout_weight="1"
                     android:clickable="true"
                     android:foreground="?attr/selectableItemBackground"
                     app:cardCornerRadius="50dp"
@@ -110,6 +134,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
+                        android:layout_gravity="center"
                         android:padding="10dp"
                         android:src="@drawable/ic_share2"
                         app:tint="@color/ic_color" />

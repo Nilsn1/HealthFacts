@@ -59,7 +59,7 @@ public class FavouriteFragment extends Fragment {
             FactsModel factmodel = new FactsModel(title);
             factslist.add(factmodel);
 
-            FactsAdapter adapter = new FactsAdapter(context, factslist, getActivity());
+            FavouriteAdapter adapter = new FavouriteAdapter(context, factslist, getActivity());
 //                    recyclerView.setAdapter(adapter);
             AdmobNativeAdAdapter admobNativeAdAdapter = AdmobNativeAdAdapter.Builder.with("ca-app-pub-9137303962163689/3884272678", adapter,
                     "small").adItemInterval(3).build();

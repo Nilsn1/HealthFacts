@@ -19,7 +19,7 @@ import com.nilscreation.healthfacts.R;
 
 public class SettingsFragment extends Fragment {
 
-    LinearLayout btnSpeech, btnShare, btnRate, btnPrivacy, btnContact, btnMore;
+    LinearLayout btnShare, btnRate, btnPrivacy, btnContact, btnMore;
 
     public SettingsFragment() {
         //Required empty public constructor
@@ -30,7 +30,6 @@ public class SettingsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_settings, container, false);
 
-        btnSpeech = view.findViewById(R.id.btnSpeech);
         btnShare = view.findViewById(R.id.btnShare);
         btnRate = view.findViewById(R.id.btnRate);
         btnPrivacy = view.findViewById(R.id.btnPrivacy);
@@ -41,16 +40,6 @@ public class SettingsFragment extends Fragment {
         SharedPreferences sharedPreferences = getActivity().getSharedPreferences("sharedPrefs", MODE_PRIVATE);
         final SharedPreferences.Editor editor = sharedPreferences.edit();
         final boolean isDarkModeOn = sharedPreferences.getBoolean("isDarkModeOn", false);
-
-        btnSpeech.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.setAction("com.android.settings.TTS_SETTINGS");
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
-            }
-        });
 
         btnShare.setOnClickListener(new View.OnClickListener() {
             @Override

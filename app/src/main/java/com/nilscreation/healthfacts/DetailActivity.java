@@ -137,7 +137,7 @@ public class DetailActivity extends AppCompatActivity {
                     fav = false;
 
                 } else {
-                    myDBHelper.deleteandAdd(mPoster, mCategory, mTitle, mText);
+                    myDBHelper.deleteandAdd(mTitle);
                     favourite.setImageResource(R.drawable.ic_favourite);
                     ImageViewCompat.setImageTintList(favourite, ColorStateList.valueOf
                             (ContextCompat.getColor(DetailActivity.this, R.color.red)));

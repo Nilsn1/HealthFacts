@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -18,15 +19,18 @@ public class MyDBHelper extends SQLiteOpenHelper {
     private static final String KEY_TITLE = "title";
     private static final String KEY_TEXT = "text";
 
+    Context context;
+
     public MyDBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        this.context = context;
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
 
         String query = "CREATE TABLE " + MY_TABLE +
-                " (" + KEY_URL + " TEXT," + KEY_CATEGORY + " TEXT," + KEY_TITLE + " TEXT," + KEY_TEXT + " TEXT) ";
+                " (" + KEY_TITLE + " TEXT) ";
         db.execSQL(query);
     }
 
@@ -37,16 +41,12 @@ public class MyDBHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public void addData(String url, String category, String title, String text) {
+    public void addData(String title) {
 
         SQLiteDatabase db = this.getWritableDatabase();
 
         ContentValues values = new ContentValues();
-        values.put(KEY_URL, url);
-        values.put(KEY_CATEGORY, category);
         values.put(KEY_TITLE, title);
-        values.put(KEY_TEXT, text);
-
         db.insert(MY_TABLE, null, values);
 
         db.close();
@@ -74,10 +74,10 @@ public class MyDBHelper extends SQLiteOpenHelper {
         db.delete(MY_TABLE, KEY_TITLE + " = ? ", new String[]{title});
     }
 
-    public void deleteandAdd(String url, String category, String title, String text) {
+    public void deleteandAdd(String title) {
 
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(MY_TABLE, KEY_TITLE + " = ? ", new String[]{title});
-        addData(url, category, title, text);
+        addData(title);
     }
 }

@@ -8,6 +8,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.ColorStateList;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -20,14 +21,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.core.widget.ImageViewCompat;
 import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -40,6 +45,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -50,8 +56,10 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
     FragmentActivity activity;
     private InterstitialAd mInterstitialAd;
     private int mCounter = 0;
-
     Random r = new Random();
+
+    String title, mTitle;
+    MyDBHelper myDBHelper;
 
     public FactsAdapter(Context context, List<FactsModel> movies, FragmentActivity activity) {
         this.context = context;
@@ -77,15 +85,41 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
         holder.title.setText(fact.getTitle());
         holder.relativeLayout.setBackgroundColor(Color.argb(255, r.nextInt(256), r.nextInt(256), r.nextInt(256)));
 
-
         String text = fact.getTitle();
+//        readData();
 
         holder.itemView.startAnimation(animation);
-
         holder.relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 holder.relativeLayout.setBackgroundColor(Color.argb(255, r.nextInt(256), r.nextInt(256), r.nextInt(256)));
+
+            }
+        });
+
+        holder.likeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                holder.likeButton.setSelected(!holder.likeButton.isSelected());
+
+                myDBHelper = new MyDBHelper(holder.likeButton.getContext());
+                mTitle = fact.getTitle();
+
+                if (!holder.likeButton.isSelected()) {
+                    myDBHelper.deleteData(mTitle);
+                    holder.favourite.setImageResource(R.drawable.ic_like);
+                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
+                            (ContextCompat.getColor(holder.likeButton.getContext(), R.color.ic_color)));
+                    Toast.makeText(holder.likeButton.getContext(), "Removed from Favourite", Toast.LENGTH_SHORT).show();
+
+                } else {
+                    myDBHelper.deleteandAdd(mTitle);
+                    holder.favourite.setImageResource(R.drawable.ic_favourite);
+                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
+                            (ContextCompat.getColor(holder.likeButton.getContext(), R.color.red)));
+                    Toast.makeText(holder.likeButton.getContext(), "Added to Favourite", Toast.LENGTH_SHORT).show();
+                }
 
             }
         });
@@ -214,20 +248,24 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
     }
 
     public class MovieHolder extends RecyclerView.ViewHolder {
-        CardView copyButton, shareButton, saveButton;
+        CardView likeButton, copyButton, shareButton, saveButton;
         TextView title;
         LinearLayout constraintLayout;
         RelativeLayout relativeLayout;
+
+        ImageView favourite;
 
         public MovieHolder(@NonNull View itemView) {
             super(itemView);
 
             title = itemView.findViewById(R.id.main_title);
+            likeButton = itemView.findViewById(R.id.likebutton);
             copyButton = itemView.findViewById(R.id.copybutton);
             shareButton = itemView.findViewById(R.id.sharebutton);
             saveButton = itemView.findViewById(R.id.savebutton);
             constraintLayout = itemView.findViewById(R.id.main_layout);
             relativeLayout = itemView.findViewById(R.id.content);
+            favourite = itemView.findViewById(R.id.imgfav);
         }
     }
 }

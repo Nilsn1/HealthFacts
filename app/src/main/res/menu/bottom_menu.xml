@@ -9,7 +9,8 @@
     <item
         android:id="@+id/categories"
         android:icon="@drawable/ic_categories"
-        android:title="Categories" />
+        android:title="Categories"
+        android:visible="false"/>
 
     <item
         android:id="@+id/favourite"
