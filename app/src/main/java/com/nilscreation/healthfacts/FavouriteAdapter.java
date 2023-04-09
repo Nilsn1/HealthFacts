@@ -75,7 +75,7 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.Movi
     @Override
     public void onBindViewHolder(@NonNull MovieHolder holder, int position) {
 
-        Animation animation = AnimationUtils.loadAnimation(holder.itemView.getContext(), R.anim.fade_in);
+//        Animation animation = AnimationUtils.loadAnimation(holder.itemView.getContext(), R.anim.fade_in);
 
         FactsModel fact = factList.get(position);
 
@@ -86,7 +86,7 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.Movi
         String text = fact.getTitle();
 //        readData();
 
-        holder.itemView.startAnimation(animation);
+//        holder.itemView.startAnimation(animation);
         holder.relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -95,9 +95,8 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.Movi
             }
         });
         holder.likeButton.setSelected(true);
-        holder.favourite.setImageResource(R.drawable.ic_favourite);
-        ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
-                (ContextCompat.getColor(holder.likeButton.getContext(), R.color.red)));
+        holder.favourite.setImageResource(R.drawable.ic_heart2);
+        ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf(ContextCompat.getColor(holder.likeButton.getContext(), R.color.red)));
 
         holder.likeButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -108,20 +107,25 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.Movi
                 myDBHelper = new MyDBHelper(holder.likeButton.getContext());
                 mTitle = fact.getTitle();
 
-                if (!holder.likeButton.isSelected()) {
-                    myDBHelper.deleteData(mTitle);
-                    holder.favourite.setImageResource(R.drawable.ic_like);
-                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
-                            (ContextCompat.getColor(holder.likeButton.getContext(), R.color.ic_color)));
-                    Toast.makeText(holder.likeButton.getContext(), "Removed from Favourite", Toast.LENGTH_SHORT).show();
+                myDBHelper.deleteData(mTitle);
+                Toast.makeText(holder.likeButton.getContext(), "Removed from Favourite", Toast.LENGTH_SHORT).show();
+                factList.remove(fact);
+                notifyDataSetChanged();
 
-                } else {
-                    myDBHelper.deleteandAdd(mTitle);
-                    holder.favourite.setImageResource(R.drawable.ic_favourite);
-                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
-                            (ContextCompat.getColor(holder.likeButton.getContext(), R.color.red)));
-                    Toast.makeText(holder.likeButton.getContext(), "Added to Favourite", Toast.LENGTH_SHORT).show();
-                }
+//                if (!holder.likeButton.isSelected()) {
+//                    myDBHelper.deleteData(mTitle);
+//                    holder.favourite.setImageResource(R.drawable.ic_like);
+//                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
+//                            (ContextCompat.getColor(holder.likeButton.getContext(), R.color.ic_color)));
+//                    Toast.makeText(holder.likeButton.getContext(), "Removed from Favourite", Toast.LENGTH_SHORT).show();
+//
+//                } else {
+//                    myDBHelper.deleteandAdd(mTitle);
+//                    holder.favourite.setImageResource(R.drawable.ic_favourite);
+//                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
+//                            (ContextCompat.getColor(holder.likeButton.getContext(), R.color.red)));
+//                    Toast.makeText(holder.likeButton.getContext(), "Added to Favourite", Toast.LENGTH_SHORT).show();
+//                }
 
             }
         });
@@ -143,12 +147,9 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.Movi
             @Override
             public void onClick(View v) {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    if (holder.saveButton.getContext().checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                            != PackageManager.PERMISSION_GRANTED) {
+                    if (holder.saveButton.getContext().checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                         int MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 0;
-                        ActivityCompat.requestPermissions((Activity) holder.saveButton.getContext(),
-                                new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
-                                MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE);
+                        ActivityCompat.requestPermissions((Activity) holder.saveButton.getContext(), new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE);
                         return;
                     }
                 }
@@ -196,9 +197,7 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.Movi
             }
             savedImagePath = imageUri.toString();
         } else {
-            File storageDir = new File(
-                    Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
-                    "Sunglasses_PhotoEditor");
+            File storageDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "Sunglasses_PhotoEditor");
             if (!storageDir.exists()) {
                 storageDir.mkdirs();
             }
@@ -226,22 +225,21 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.Movi
     private void mInterstitialAd() {
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        InterstitialAd.load(activity, "ca-app-pub-9137303962163689/2088238601", adRequest,
-                new InterstitialAdLoadCallback() {
-                    @Override
-                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
-                        // The mInterstitialAd reference will be null until
-                        // an ad is loaded.
-                        mInterstitialAd = interstitialAd;
+        InterstitialAd.load(activity, "ca-app-pub-9137303962163689/2088238601", adRequest, new InterstitialAdLoadCallback() {
+            @Override
+            public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                // The mInterstitialAd reference will be null until
+                // an ad is loaded.
+                mInterstitialAd = interstitialAd;
 //                        Toast.makeText(activity, "loaded", Toast.LENGTH_SHORT).show();
-                    }
+            }
 
-                    @Override
-                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-                        // Handle the error
-                        mInterstitialAd = null;
-                    }
-                });
+            @Override
+            public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                // Handle the error
+                mInterstitialAd = null;
+            }
+        });
     }
 
     @Override

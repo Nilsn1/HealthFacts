@@ -2760,6 +2760,8 @@ drawable roundbutton
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font marathi500
+font marathi644
 font nunito_bold
 font nunito_semibold
 id ALT

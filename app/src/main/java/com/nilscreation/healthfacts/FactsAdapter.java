@@ -97,29 +97,36 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
             }
         });
 
-        holder.likeButton.setOnClickListener(new View.OnClickListener() {
+        holder.favourite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                holder.likeButton.setSelected(!holder.likeButton.isSelected());
-
-                myDBHelper = new MyDBHelper(holder.likeButton.getContext());
+                myDBHelper = new MyDBHelper(holder.favourite.getContext());
                 mTitle = fact.getTitle();
 
-                if (!holder.likeButton.isSelected()) {
-                    myDBHelper.deleteData(mTitle);
-                    holder.favourite.setImageResource(R.drawable.ic_like);
-                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
-                            (ContextCompat.getColor(holder.likeButton.getContext(), R.color.ic_color)));
-                    Toast.makeText(holder.likeButton.getContext(), "Removed from Favourite", Toast.LENGTH_SHORT).show();
+                myDBHelper.deleteandAdd(mTitle);
+                holder.favourite.setImageResource(R.drawable.ic_heart2);
+//                ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
+//                        (ContextCompat.getColor(holder.favourite.getContext(), R.color.red)));
+                Toast.makeText(holder.favourite.getContext(), "Added to Favourite", Toast.LENGTH_SHORT).show();
 
-                } else {
-                    myDBHelper.deleteandAdd(mTitle);
-                    holder.favourite.setImageResource(R.drawable.ic_favourite);
-                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
-                            (ContextCompat.getColor(holder.likeButton.getContext(), R.color.red)));
-                    Toast.makeText(holder.likeButton.getContext(), "Added to Favourite", Toast.LENGTH_SHORT).show();
-                }
+
+//                fact.setLiked(!fact.isLiked);
+//
+//                if (!fact.isLiked) {
+//                    myDBHelper.deleteData(mTitle);
+//                    holder.favourite.setImageResource(R.drawable.ic_heart);
+//                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
+//                            (ContextCompat.getColor(holder.favourite.getContext(), R.color.ic_color)));
+//                    Toast.makeText(holder.favourite.getContext(), "Removed from Favourite", Toast.LENGTH_SHORT).show();
+//
+//                } else {
+//                    myDBHelper.deleteandAdd(mTitle);
+//                    holder.favourite.setImageResource(R.drawable.ic_heart2);
+//                    ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
+//                            (ContextCompat.getColor(holder.favourite.getContext(), R.color.red)));
+//                    Toast.makeText(holder.favourite.getContext(), "Added to Favourite", Toast.LENGTH_SHORT).show();
+//                }
 
             }
         });
@@ -248,7 +255,7 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
     }
 
     public class MovieHolder extends RecyclerView.ViewHolder {
-        CardView likeButton, copyButton, shareButton, saveButton;
+        CardView copyButton, shareButton, saveButton;
         TextView title;
         LinearLayout constraintLayout;
         RelativeLayout relativeLayout;
@@ -259,7 +266,6 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
             super(itemView);
 
             title = itemView.findViewById(R.id.main_title);
-            likeButton = itemView.findViewById(R.id.likebutton);
             copyButton = itemView.findViewById(R.id.copybutton);
             shareButton = itemView.findViewById(R.id.sharebutton);
             saveButton = itemView.findViewById(R.id.savebutton);

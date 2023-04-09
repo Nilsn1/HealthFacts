@@ -1,0 +1,9 @@
+com.nilscreation.healthfacts.test.app-jetified-annotation-experimental-1.1.0-0 C:\Users\admin\.gradle\caches\transforms-3\e8d3c1379228a0b0856a244768915085\transformed\jetified-annotation-experimental-1.1.0\res
+com.nilscreation.healthfacts.test.app-jetified-core-1.5.0-1 C:\Users\admin\.gradle\caches\transforms-3\fa1b672b3e03df5a1685488cd04f9b64\transformed\jetified-core-1.5.0\res
+com.nilscreation.healthfacts.test.app-androidTest-2 E:\APPS\Health_Facts\app\build\generated\res\resValues\androidTest\debug
+com.nilscreation.healthfacts.test.app-androidTest-3 E:\APPS\Health_Facts\app\build\generated\res\rs\androidTest\debug
+com.nilscreation.healthfacts.test.app-mergeDebugAndroidTestResources-4 E:\APPS\Health_Facts\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.nilscreation.healthfacts.test.app-mergeDebugAndroidTestResources-5 E:\APPS\Health_Facts\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.nilscreation.healthfacts.test.app-merged_res-6 E:\APPS\Health_Facts\app\build\intermediates\merged_res\debugAndroidTest
+com.nilscreation.healthfacts.test.app-androidTest-7 E:\APPS\Health_Facts\app\src\androidTest\res
+com.nilscreation.healthfacts.test.app-androidTestDebug-8 E:\APPS\Health_Facts\app\src\androidTestDebug\res

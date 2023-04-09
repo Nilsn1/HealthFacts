@@ -76,8 +76,7 @@
                         android:layout_height="50dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/like_dislike_selector"
-                        app:tint="@color/ic_color" />
+                        android:src="@drawable/ic_heart" />
 
                 </androidx.cardview.widget.CardView>
 

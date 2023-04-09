@@ -1,0 +1,3 @@
+com.nilscreation.healthfacts.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
