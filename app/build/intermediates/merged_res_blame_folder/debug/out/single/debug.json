@@ -300,8 +300,8 @@
         "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\mipmap-xxhdpi\\ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "com.nilscreation.healthfacts.app-merged_res-40:/drawable_ic_heart.png.flat",
-        "source": "com.nilscreation.healthfacts.app-main-42:/drawable/ic_heart.png"
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_selectable_background.xml.flat",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-main-42:\\drawable\\selectable_background.xml"
     },
     {
         "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.4\\com.nilscreation.healthfacts.app-merged_res-40:\\drawable_ic_star.png.flat",

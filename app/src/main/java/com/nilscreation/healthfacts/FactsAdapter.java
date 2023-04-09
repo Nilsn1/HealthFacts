@@ -97,7 +97,7 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
             }
         });
 
-        holder.favourite.setOnClickListener(new View.OnClickListener() {
+        holder.likeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -105,7 +105,7 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
                 mTitle = fact.getTitle();
 
                 myDBHelper.deleteandAdd(mTitle);
-                holder.favourite.setImageResource(R.drawable.ic_heart2);
+//                holder.favourite.setImageResource(R.drawable.ic_heart2);
 //                ImageViewCompat.setImageTintList(holder.favourite, ColorStateList.valueOf
 //                        (ContextCompat.getColor(holder.favourite.getContext(), R.color.red)));
                 Toast.makeText(holder.favourite.getContext(), "Added to Favourite", Toast.LENGTH_SHORT).show();
@@ -255,7 +255,7 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
     }
 
     public class MovieHolder extends RecyclerView.ViewHolder {
-        CardView copyButton, shareButton, saveButton;
+        CardView likeButton, copyButton, shareButton, saveButton;
         TextView title;
         LinearLayout constraintLayout;
         RelativeLayout relativeLayout;
@@ -266,6 +266,7 @@ public class FactsAdapter extends RecyclerView.Adapter<FactsAdapter.MovieHolder>
             super(itemView);
 
             title = itemView.findViewById(R.id.main_title);
+            likeButton = itemView.findViewById(R.id.likebutton);
             copyButton = itemView.findViewById(R.id.copybutton);
             shareButton = itemView.findViewById(R.id.sharebutton);
             saveButton = itemView.findViewById(R.id.savebutton);
